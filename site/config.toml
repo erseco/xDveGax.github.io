@@ -7,7 +7,7 @@ disqusShortname = "www-ialvarezfernandez-com"
 googleAnalytics = "UA-50263947-3"
 # Define how many posts should appear on a site
 paginate = 5
-
+publishDir = "docs"
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
