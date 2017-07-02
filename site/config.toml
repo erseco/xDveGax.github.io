@@ -1,0 +1,60 @@
+baseurl = "/"
+languageCode = "es-ES"
+title = "Ignacio Álvarez Fernández"
+theme = "hugo-strata-theme"
+disqusShortname = "www-ialvarezfernandez-com"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = "UA-50263947-3"
+# Define how many posts should appear on a site
+paginate = 5
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Ignacio Álvarez Fernández"
+	description = "Web developer - Personal page"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "Ignacio Álvarez Fernández<br> Desarrollador web"
+		# The icons will be shown if you enter your username
+		twitter = "xDveGax"
+		github = "xDveGax"
+		gitlab = "ialvarezdaw"
+		linkedin = "ignacio-alvarez-fernandez"
+
+		copyright = [
+			"&copy; Ignacio Álvarez Fernández"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "Sobre mi"
+		content = "Mi nombre es Ignacio Álvarez Fernández, soy de Alcalá la Real (Jaén) pero desde 2015 vivo en Madrid. Actualmente trabajo como Frontend Developer, principalmente con AngularJS-Angular, Typescript, ES6 y SASS, aunque tengo conocimientos en otros Frameworks y también en tecnologias de Back. Mi principal idea con este blog es afianzar mis conocimientos y compartirlos con la comunidad."
+
+	[params.recentposts]
+		hide  = false
+		title = "Últimos artículos"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 0
+
+[[menu.main]]
+    name = "Blog"
+    url  = "post/"
+    weight = 10
